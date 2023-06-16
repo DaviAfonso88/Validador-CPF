@@ -48,7 +48,7 @@ class Validar {
         let inputLength = input.value.length;
         let errorsInputreq = input.style.border = '2px solid #e63636';
         if (inputLength < minValue) {
-            this.printMessage(input, `CPF deve conter ${minValue} digitos.`);
+            this.printMessage(input, `CPF deve conter ${minValue} dígitos.`);
             errorsInputreq;
             document.getElementById('check').style.display = 'none';
 
@@ -64,7 +64,7 @@ class Validar {
         let errorsInputreq = input.style.border = '2px solid #e63636';
 
         if (!cpf.valida()) {
-            this.printMessage(input, 'CPF invalido');
+            this.printMessage(input, 'CPF inválido');
             document.getElementById('check').style.display = 'none';
             return false;
         } else {
