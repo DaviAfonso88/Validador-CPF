@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de CPF</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <form action="" method="" id="registerCPF">
+        <div class="container">
+            <div class="header">
+                <h1>Validador de <span>CPF</span></h1>
+            </div>
+            <div class="body">
+                <input type="text" id="cpf" placeholder="Insira o seu cpf" maxlength="14" data-required
+                    data-min-length="11" data-validationCPF>
+                <i class='bx bxs-checkbox-checked' id="check"></i>
+                <button id="btnValidate">Validar</button>
+            </div>
+        </div>
+    </form>
+
+    <p class="error-validation template"></p>
+    <p class="error-input temp"></p>
+
+    <script src="js/script.js"></script>
+    <script src="js/validateCPF.js"></script>
+</body>
+
+</html>

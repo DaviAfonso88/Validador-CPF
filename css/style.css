@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #323232;
+
+
+}
+
+:root {
+    --primary-color: #004C99;
+    --second-color: #eec540;
+    --text-color: #02171d;
+    --background-color: #fcfcfc;
+
+}
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+body {
+    background: linear-gradient(to right, var(--primary-color), var(--second-color));
+
+}
+
+.container {
+    background: var(--background-color);
+    position: relative;
+    margin: 200px auto;
+    display: grid;
+    max-width: 500px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 10px 40px -12px #000000;
+    text-align: center;
+
+}
+
+.header h1 {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+form input {
+    background: var(--background-color);
+    width: 200px;
+    height: 55px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    border: 2px solid #686868;
+    border-radius: 8px;
+}
+
+form input:focus {
+    border: 2px solid var(--text-color);
+}
+
+form button {
+    position: relative;
+    display: inline-block;
+    padding: 12px 20px;
+    color: var(--text-color);
+    box-shadow: 0px 10px 40px -12px #000000;
+    border-radius: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin-left: 35px;
+    transition: .5s;
+    size: 50%;
+    transform: translateY(-3px);
+}
+
+form button:hover {
+    background: var(--second-color);
+    color: #ffffff;
+    transform: translateY(3px);
+    cursor: pointer;
+}
+
+form span {
+    padding: 0.2rem 1.2rem;
+    background: var(--primary-color);
+    color: var(--background-color);
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
+}
+
+#check {
+    position: relative;
+    margin-left: -40px;
+    top: 5px;
+    font-size: 25px;
+    color: #11e268;
+    display: none;
+}
+
+.error-validation {
+    color: #e63636;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: -170px;
+
+}
+
+.template {
+    display: none;
+}
