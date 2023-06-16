@@ -13,7 +13,8 @@
 <br>
 
 
-![CPF](https://github.com/DaviAfonso88/Validador-CPF-Teknisa/assets/89953265/4d40d6f2-7763-4150-b43d-02eb9f2c17a2)
+![CPF](https://github.com/DaviAfonso88/Validador-CPF-Teknisa/assets/89953265/f97ae689-2374-40bc-b7a7-3ae5d89ba670)
+
 
 
 <br>
