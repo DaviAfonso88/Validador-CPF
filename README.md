@@ -79,9 +79,7 @@ Você pode estar acessando o projeto por [aqui.](https://daviafonso88.github.io/
 <br>
 <br>
 
-## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+## 🤝 Colaborador
 
 <table>
   <tr>
