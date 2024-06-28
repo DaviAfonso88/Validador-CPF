@@ -19,7 +19,7 @@
 <br>
 
 
-Você pode estar acessando o projeto por [aqui.](https://daviafonso88.github.io/Validador-CPF-Teknisa/) ✌
+Você pode estar acessando o projeto por [aqui.](https://valide-cpf.netlify.app/) ✌
 
 
 <br>
