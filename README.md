@@ -1,4 +1,4 @@
-# 💻 Validador de CPF -- Teknisa 💻
+# 💻 Validador de CPF 💻
 
 <br>
 <br>
@@ -13,8 +13,7 @@
 <br>
 
 
-![CPF](https://github.com/DaviAfonso88/Validador-CPF-Teknisa/assets/89953265/f97ae689-2374-40bc-b7a7-3ae5d89ba670)
-
+![image](https://github.com/DaviAfonso88/Validador-CPF/assets/89953265/384e91d6-5e86-4c7a-b896-adec9f272c49)
 
 
 <br>
@@ -28,7 +27,40 @@ Você pode estar acessando o projeto por [aqui.](https://daviafonso88.github.io/
 
 ## 🧠 Qual o intuito do projeto?
 
-> Desenvolvimento de um validador de CPF para treinamento do processo seletivo da Teknisa. 
+> Um projeto simples em JavaScript para validar CPFs em um formulário web. 
+
+
+<br>
+<br>
+
+## Como Utilizar
+
+### Clonando o Projeto
+
+Para utilizar este projeto localmente, siga os passos abaixo:
+
+1. Abra o terminal (Git Bash, CMD, ou Terminal do VSCode).
+2. Navegue até o diretório onde deseja clonar o projeto.
+3. Execute o seguinte comando:
+
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   
+### Abrindo o Projeto no VSCode
+
+1. Abra o VSCode.
+2. No menu, selecione:
+    ```bash
+   "File" > "Open Folder..." (ou pressione Ctrl+O no Windows/Linux, Cmd+O no macOS).
+3. Navegue até o diretório onde você clonou o projeto e selecione a pasta.
+4. O projeto será aberto no VSCode.
+
+### Abrindo o Projeto no VSCode
+
+1. Certifique-se de ter a extensão Live Server instalada no VSCode. Se não tiver, você pode instalá-la através do marketplace do VSCode.
+2. No VSCode, navegue até o arquivo `index.html` dentro da pasta do projeto.
+3. Clique com o botão direito do mouse no arquivo `index.html` e selecione "Open with Live Server" no menu de contexto.
+4. Uma nova aba do navegador será aberta automaticamente com o projeto carregado.
 
 
 <br>
